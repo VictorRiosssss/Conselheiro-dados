@@ -1,0 +1,13 @@
+diff --git a/skills/labplan-conselheiro/SKILL.md b/skills/labplan-conselheiro/SKILL.md
+index 03d3a8c..40f6fba 100644
+--- a/skills/labplan-conselheiro/SKILL.md
++++ b/skills/labplan-conselheiro/SKILL.md
+@@ -88,7 +88,7 @@ lembrete, curto. Se nada vale a pena, responda só `[SILENT]`.
+ 
+ - **Pontta:** sem API. O Victor gera o relatório com o Claude usando o prompt de
+   `references/pontta.md` e manda o arquivo. Guarde com `C relatorio guardar` e leia o que importa.
+-- **CRM:** tem API e MCP. Quando estiver conectado, consulte só para leitura.
++- **CRM:** tem API e MCP. Consulte só para leitura. Para conexão, limites e apuração de orçamentos novos, leia `references/crm-consultas.md`.
+ - **PCPLAB:** ainda não está em uso.
+ 
+ ## Áreas

@@ -1,0 +1,2 @@
+ M skills/labplan-conselheiro/SKILL.md
+?? skills/labplan-conselheiro/references/crm-consultas.md
