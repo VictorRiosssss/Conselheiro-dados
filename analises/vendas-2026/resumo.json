@@ -1,0 +1,639 @@
+{
+  "fonte": "Pedidos de venda do Pontta colados por Victor no Telegram, em duas mensagens. Sem acesso direto ao Pontta e sem total geral de controle fornecido.",
+  "criterio": "Soma dos valores de todos os pedidos recebidos com data de venda em 2026. Mantém pedido de valor zero e todos os status recebidos. Não equivale a faturamento fiscal, recebimentos ou entregas. Agrupamento apenas por igualdade literal do campo Cliente, sem CPF/CNPJ disponível. Não une clientes por nomes finais semelhantes.",
+  "quantidade_pedidos": 56,
+  "quantidade_clientes_nomes_literais": 44,
+  "total_valor_pedidos": "4978610.92",
+  "data_minima_informada": "2026-01-23",
+  "data_maxima_informada": "2026-11-12",
+  "valor_zero": [
+    "PV-LP-356"
+  ],
+  "status": {
+    "ENTREGUE": 31,
+    "Em conferência": 4,
+    "Enviado a fábrica": 11,
+    "Aguardando cadastro": 6,
+    "Em montagem": 1,
+    "Pendente assinatura do caderno técnico": 2,
+    "Pré conferência": 1
+  },
+  "meses": {
+    "2026-01": "79500.00",
+    "2026-02": "776859.52",
+    "2026-03": "785102.00",
+    "2026-04": "413575.16",
+    "2026-05": "22523.32",
+    "2026-06": "785816.00",
+    "2026-07": "626000.00",
+    "2026-08": "1445.24",
+    "2026-09": "1286344.06",
+    "2026-10": "25045.62",
+    "2026-11": "176400.00"
+  },
+  "maiores": {
+    "1": {
+      "valor": "450000.00",
+      "percentual": "9.038665748959551151267711436"
+    },
+    "3": {
+      "valor": "1204316.00",
+      "percentual": "24.18979951138660178731138926"
+    },
+    "5": {
+      "valor": "1874316.00",
+      "percentual": "37.64736851539304461253220406"
+    },
+    "10": {
+      "valor": "3093816.00",
+      "percentual": "62.14215269507342823246770206"
+    }
+  },
+  "ranking": [
+    {
+      "cliente": "SIPEL CONSTRUCOES LTDA",
+      "valor": "450000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "9.038665748959551151267711436",
+      "acumulado_pct": "9.038665748959551151267711436",
+      "pedidos": [
+        "PV-LP-353"
+      ],
+      "nomes_finais_informados": [
+        "SIPEL / SIPEL CONSTRUCOES LTDA"
+      ]
+    },
+    {
+      "cliente": "DUNAX LUBRIFICANTES LTDA",
+      "valor": "404316.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "8.121060402125177518391013371",
+      "acumulado_pct": "17.15972615108472866965872481",
+      "pedidos": [
+        "PV-LP-340"
+      ],
+      "nomes_finais_informados": [
+        "NONATO JR"
+      ]
+    },
+    {
+      "cliente": "VIVIANE DE JESUS SOUZA",
+      "valor": "350000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "7.030073360301873117652664450",
+      "acumulado_pct": "24.18979951138660178731138926",
+      "pedidos": [
+        "PV-LP-321"
+      ],
+      "nomes_finais_informados": [
+        "VIVIANE DE JESUS SOUZA"
+      ]
+    },
+    {
+      "cliente": "ALEX SENA MACEDO E SILVA",
+      "valor": "350000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "7.030073360301873117652664450",
+      "acumulado_pct": "31.21987287168847490496405371",
+      "pedidos": [
+        "PV-LP-368"
+      ],
+      "nomes_finais_informados": [
+        "ALEX SENA MACEDO E SILVA"
+      ]
+    },
+    {
+      "cliente": "RENATO MARQUES DE OLIVEIRA",
+      "valor": "320000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "6.427495643704569707568150355",
+      "acumulado_pct": "37.64736851539304461253220406",
+      "pedidos": [
+        "PV-LP-367"
+      ],
+      "nomes_finais_informados": [
+        "RENATO MARQUES DE OLIVEIRA"
+      ]
+    },
+    {
+      "cliente": "BRARLON MACEDO FARIAS",
+      "valor": "300000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "6.025777165973034100845140958",
+      "acumulado_pct": "43.67314568136607871337734502",
+      "pedidos": [
+        "PV-LP-330"
+      ],
+      "nomes_finais_informados": [
+        "BRARLON FARIAS"
+      ]
+    },
+    {
+      "cliente": "ANA PAULA",
+      "valor": "250000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "5.021480971644195084037617465",
+      "acumulado_pct": "48.69462665301027379741496249",
+      "pedidos": [
+        "PV-LP-312"
+      ],
+      "nomes_finais_informados": [
+        "ANA PAULA FARIAS MONTEIRO"
+      ]
+    },
+    {
+      "cliente": "Márcio Pinheiro de Souza",
+      "valor": "244500.00",
+      "quantidade_pedidos": 2,
+      "participacao_pct": "4.911008390268022792188789880",
+      "acumulado_pct": "53.60563504327829658960375237",
+      "pedidos": [
+        "PV-LP-310",
+        "PV-LP-341"
+      ],
+      "nomes_finais_informados": [
+        "MARCIO PINHEIRO DE SOUSA"
+      ]
+    },
+    {
+      "cliente": "RISOMAR FRANCO DE ALBUQUERQUE",
+      "valor": "220000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "4.418903255046891673953103369",
+      "acumulado_pct": "58.02453829832518826355685573",
+      "pedidos": [
+        "PV-LP-317"
+      ],
+      "nomes_finais_informados": [
+        "RISOMAR FRANCO"
+      ]
+    },
+    {
+      "cliente": "EDER CARLOS DOS SANTOS",
+      "valor": "205000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "4.117614396748239968910846321",
+      "acumulado_pct": "62.14215269507342823246770206",
+      "pedidos": [
+        "PV-LP-357"
+      ],
+      "nomes_finais_informados": [
+        "EDER CARLOS DOS SANTOS"
+      ]
+    },
+    {
+      "cliente": "LAIANE SILVA DE SOUZA",
+      "valor": "200000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "4.017184777315356067230093972",
+      "acumulado_pct": "66.15933747238878429969779603",
+      "pedidos": [
+        "PV-LP-345"
+      ],
+      "nomes_finais_informados": [
+        "LAIANE SILVA DE SOUZA"
+      ]
+    },
+    {
+      "cliente": "BRUNO SOUZA BASTOS",
+      "valor": "180000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "3.615466299583820460507084575",
+      "acumulado_pct": "69.77480377197260476020488060",
+      "pedidos": [
+        "PV-LP-315"
+      ],
+      "nomes_finais_informados": [
+        "BRUNO SOUZA BASTOS"
+      ]
+    },
+    {
+      "cliente": "DIEGO RIOS SILVA",
+      "valor": "176400.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "3.543156973592144051296942883",
+      "acumulado_pct": "73.31796074556474881150182348",
+      "pedidos": [
+        "PV-LP-373"
+      ],
+      "nomes_finais_informados": [
+        "DIEGO RIOS"
+      ]
+    },
+    {
+      "cliente": "APX NET SERVICOS E COMERCIO LTDA",
+      "valor": "131260.03",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "2.636478971929784784226520758",
+      "acumulado_pct": "75.95443971749453359572834424",
+      "pedidos": [
+        "PV-LP-362"
+      ],
+      "nomes_finais_informados": [
+        "AILTON ALVES PEREIRA JUNIOR"
+      ]
+    },
+    {
+      "cliente": "Karina Freire Araújo de Carvalho",
+      "valor": "117000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "2.350053094729483299329604973",
+      "acumulado_pct": "78.30449281222401689505794922",
+      "pedidos": [
+        "PV-LP-351"
+      ],
+      "nomes_finais_informados": [
+        "KARINA FREIRE ARAÚJO"
+      ]
+    },
+    {
+      "cliente": "CARLOS WASHIGTON LEITE DOS SANTOS",
+      "valor": "115000.00",
+      "quantidade_pedidos": 2,
+      "participacao_pct": "2.309881246956329738657304034",
+      "acumulado_pct": "80.61437405918034663371525325",
+      "pedidos": [
+        "PV-LP-342",
+        "PV-LP-348"
+      ],
+      "nomes_finais_informados": [
+        "CARLOS WASHIGTON LEITE DOS SANTOS"
+      ]
+    },
+    {
+      "cliente": "PHMC REPRESENTACAO E PARTICIPACAO LTDA",
+      "valor": "114600.00",
+      "quantidade_pedidos": 2,
+      "participacao_pct": "2.301846877401699026522843846",
+      "acumulado_pct": "82.91622093658204566023809710",
+      "pedidos": [
+        "PV-LP-366",
+        "PV-LP-369"
+      ],
+      "nomes_finais_informados": [
+        "DAILTON CUNHA",
+        "DANILTO CUNHA"
+      ]
+    },
+    {
+      "cliente": "DILERMANDO LAJE RIBEIRO PESSOA SOBRINHO",
+      "valor": "94364.62",
+      "quantidade_pedidos": 2,
+      "participacao_pct": "1.895400574905740977244311351",
+      "acumulado_pct": "84.81162151148778663748240845",
+      "pedidos": [
+        "PV-LP-365",
+        "PV-LP-370"
+      ],
+      "nomes_finais_informados": [
+        "DILERMANDO LAJE RIBEIRO",
+        "DILERMANDO LAJE RIBEIRO PESSOA SOBRINHO"
+      ]
+    },
+    {
+      "cliente": "Fernanda Oliveira Gobatto",
+      "valor": "70412.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "1.414290072701644257029026884",
+      "acumulado_pct": "86.22591158418943089451143533",
+      "pedidos": [
+        "PV-LP-316"
+      ],
+      "nomes_finais_informados": [
+        "FERNANDA GOBATTO"
+      ]
+    },
+    {
+      "cliente": "HÉLIO CATHARINO DA SILVA NETO",
+      "valor": "70000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "1.406014672060374623530532890",
+      "acumulado_pct": "87.63192625624980551804196822",
+      "pedidos": [
+        "PV-LP-343"
+      ],
+      "nomes_finais_informados": [
+        "HÉLIO CATHARINO DA SILVA NETO"
+      ]
+    },
+    {
+      "cliente": "SANDRO GONZAGA SANTANA",
+      "valor": "69000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "1.385928748173797843194382420",
+      "acumulado_pct": "89.01785500442360336123635064",
+      "pedidos": [
+        "PV-LP-309"
+      ],
+      "nomes_finais_informados": [
+        "SANDRO GONZAGA SANTANA"
+      ]
+    },
+    {
+      "cliente": "BIBIANE CARNEIRO FERREIRA BRAGA",
+      "valor": "64975.16",
+      "quantidade_pedidos": 2,
+      "participacao_pct": "1.305086118278148154626230563",
+      "acumulado_pct": "90.32294112270175151586258120",
+      "pedidos": [
+        "PV-LP-322",
+        "PV-LP-329"
+      ],
+      "nomes_finais_informados": [
+        "BIBIANE CARNEIRO FERREIRA BRAGA"
+      ]
+    },
+    {
+      "cliente": "TAYRONE BRANDÃO MALAQUIAS",
+      "valor": "60000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "1.205155433194606820169028192",
+      "acumulado_pct": "91.52809655589635833603160940",
+      "pedidos": [
+        "PV-LP-324"
+      ],
+      "nomes_finais_informados": [
+        "TAYRONE BRANDÃO MALAQUIAS,"
+      ]
+    },
+    {
+      "cliente": "G6 TRANSPORTE",
+      "valor": "58000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "1.164983585421453259496727252",
+      "acumulado_pct": "92.69308014131781159552833665",
+      "pedidos": [
+        "PV-LP-325"
+      ],
+      "nomes_finais_informados": [
+        "G6 TRANSPORTE"
+      ]
+    },
+    {
+      "cliente": "TARCISIO ANDRADE BERNARDO",
+      "valor": "55000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "1.104725813761722918488275842",
+      "acumulado_pct": "93.79780595507953451401661249",
+      "pedidos": [
+        "PV-LP-358"
+      ],
+      "nomes_finais_informados": [
+        "Tarcisio Andrade Bernardo"
+      ]
+    },
+    {
+      "cliente": "ICL FARMACIA LTDA",
+      "valor": "50511.82",
+      "quantidade_pedidos": 3,
+      "participacao_pct": "1.014576571892466744519172026",
+      "acumulado_pct": "94.81238252697200125853578452",
+      "pedidos": [
+        "PV-LP-318",
+        "PV-LP-336",
+        "PV-LP-355"
+      ],
+      "nomes_finais_informados": [
+        "DROGARIAS MEGA DESCONTAO / ICL FARMACIA LTDA"
+      ]
+    },
+    {
+      "cliente": "CAIO CEZAR REBOUÇAS CERQUEIRA",
+      "valor": "42859.52",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.8608730565352152483528477859",
+      "acumulado_pct": "95.67325558350721650688863230",
+      "pedidos": [
+        "PV-LP-311"
+      ],
+      "nomes_finais_informados": [
+        "CAIO CEZAR REBOUÇAS CERQUEIRA"
+      ]
+    },
+    {
+      "cliente": "SEBASTIÃO E JULIANA",
+      "valor": "40881.00",
+      "quantidade_pedidos": 2,
+      "participacao_pct": "0.8211326544071453569221673583",
+      "acumulado_pct": "96.49438823791436186381079966",
+      "pedidos": [
+        "PV-LP-306",
+        "PV-LP-372"
+      ],
+      "nomes_finais_informados": [
+        "JULIANA E SEBASTIÃO",
+        "JULIANA FERREIRA CARVALHO PORTO"
+      ]
+    },
+    {
+      "cliente": "ELCYDES PIAGGIO DE OLIVEIRA JÚNIOR",
+      "valor": "32950.00",
+      "quantidade_pedidos": 2,
+      "participacao_pct": "0.6618311920627049120761579818",
+      "acumulado_pct": "97.15621942997706677588695764",
+      "pedidos": [
+        "PV-LP-323",
+        "PV-LP-363"
+      ],
+      "nomes_finais_informados": [
+        "JÚNIOR PIAGGIO"
+      ]
+    },
+    {
+      "cliente": "ELOFILO CINTRA SILVA",
+      "valor": "32500.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.6527925263137453609248902704",
+      "acumulado_pct": "97.80901195629081213681184791",
+      "pedidos": [
+        "PV-LP-305"
+      ],
+      "nomes_finais_informados": [
+        "ELOFILO CINTRA SILVA"
+      ]
+    },
+    {
+      "cliente": "JOANITA MERCES RAMOS SILVA",
+      "valor": "30000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.6025777165973034100845140958",
+      "acumulado_pct": "98.41158967288811554689636201",
+      "pedidos": [
+        "PV-LP-339"
+      ],
+      "nomes_finais_informados": [
+        "AR ADVOGADOS"
+      ]
+    },
+    {
+      "cliente": "Larissa Beatriz Bernardo de Oliveira",
+      "valor": "16000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.3213747821852284853784075177",
+      "acumulado_pct": "98.73296445507334403227476953",
+      "pedidos": [
+        "PV-LP-346"
+      ],
+      "nomes_finais_informados": [
+        "Larissa Beatriz Bernardo de Oliveira"
+      ]
+    },
+    {
+      "cliente": "CRISTHIANO PAULO TEIXEIRA DE CASTRO",
+      "valor": "11445.24",
+      "quantidade_pedidos": 3,
+      "participacao_pct": "0.2298882195036040293745228036",
+      "acumulado_pct": "98.96285267457694806164929233",
+      "pedidos": [
+        "PV-LP-327",
+        "PV-LP-331",
+        "PV-LP-354"
+      ],
+      "nomes_finais_informados": [
+        "CRISTHIANO PAULO TEIXEIRA DE CASTRO"
+      ]
+    },
+    {
+      "cliente": "CRISTIANO FRAGOSO DE OLIVEIRA",
+      "valor": "10200.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.2048764236430831594287347926",
+      "acumulado_pct": "99.16772909822003122107802712",
+      "pedidos": [
+        "PV-LP-371"
+      ],
+      "nomes_finais_informados": [
+        "CRISTIANO FRAGOSO DE OLIVEIRA"
+      ]
+    },
+    {
+      "cliente": "LUIZA ADRIANA DA SILVA ODIZO",
+      "valor": "9500.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.1908162769224794131934294637",
+      "acumulado_pct": "99.35854537514251063427145659",
+      "pedidos": [
+        "PV-LP-333"
+      ],
+      "nomes_finais_informados": [
+        "LUIZA ADRIANA DA SILVA ODIZO"
+      ]
+    },
+    {
+      "cliente": "CIRE - CLINICA INTEGRADA DE REABILITACAO ESTETICA LTDA",
+      "valor": "9000.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.1807733149791910230253542287",
+      "acumulado_pct": "99.53931869012170165729681081",
+      "pedidos": [
+        "PV-LP-304"
+      ],
+      "nomes_finais_informados": [
+        "CIRE - CLINICA INTEGRADA DE REABILITAÇÃO ESTETICA LTDA"
+      ]
+    },
+    {
+      "cliente": "SARA DA SILVA SERRA",
+      "valor": "5790.00",
+      "quantidade_pedidos": 2,
+      "participacao_pct": "0.1162974993032795581463112205",
+      "acumulado_pct": "99.65561618942498121544312203",
+      "pedidos": [
+        "PV-LP-319",
+        "PV-LP-332"
+      ],
+      "nomes_finais_informados": [
+        "SARA DA SILVA SERRA"
+      ]
+    },
+    {
+      "cliente": "LUIZA SELIS SANTOS SANTANA",
+      "valor": "5600.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.1124811737648299698824426312",
+      "acumulado_pct": "99.76809736318981118532556467",
+      "pedidos": [
+        "PV-LP-335"
+      ],
+      "nomes_finais_informados": [
+        "LUIZA SELIS SANTOS SANTANA"
+      ]
+    },
+    {
+      "cliente": "GEOVANA NERES ALVES GUIMARÂES",
+      "valor": "5500.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.1104725813761722918488275842",
+      "acumulado_pct": "99.87856994456598347717439225",
+      "pedidos": [
+        "PV-LP-326"
+      ],
+      "nomes_finais_informados": [
+        "GEOVANA NERES ALVES GUIMARAES"
+      ]
+    },
+    {
+      "cliente": "LUIZ CARLOS DE CARVALHO BAHIA NETO",
+      "valor": "2600.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.05222340210509962887399122163",
+      "acumulado_pct": "99.93079334667108310604838347",
+      "pedidos": [
+        "PV-LP-328"
+      ],
+      "nomes_finais_informados": [
+        "NETO BAHIA"
+      ]
+    },
+    {
+      "cliente": "Ygor Veloso Gomes Silva",
+      "valor": "2347.79",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.04715753124166609910541071163",
+      "acumulado_pct": "99.97795087791274920515379418",
+      "pedidos": [
+        "PV-LP-334"
+      ],
+      "nomes_finais_informados": [
+        "Ygor Veloso Gomes Silva"
+      ]
+    },
+    {
+      "cliente": "GILVANDO BARBOSA LIMA",
+      "valor": "697.74",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.01401475253262008271174562884",
+      "acumulado_pct": "99.99196563044536928786553981",
+      "pedidos": [
+        "PV-LP-337"
+      ],
+      "nomes_finais_informados": []
+    },
+    {
+      "cliente": "TOMAZ FIGUEREDO COSTA JUNIOR",
+      "valor": "400.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0.008034369554630712134460187943",
+      "acumulado_pct": "100",
+      "pedidos": [
+        "PV-LP-320"
+      ],
+      "nomes_finais_informados": [
+        "TOMAZ FIGUEREDO COSTA JUNIOR"
+      ]
+    },
+    {
+      "cliente": "JULIANA DE ALMEIDA LACERDA",
+      "valor": "0.00",
+      "quantidade_pedidos": 1,
+      "participacao_pct": "0",
+      "acumulado_pct": "100",
+      "pedidos": [
+        "PV-LP-356"
+      ],
+      "nomes_finais_informados": [
+        "JULIANA DE ALMEIDA LACERDA"
+      ]
+    }
+  ]
+}

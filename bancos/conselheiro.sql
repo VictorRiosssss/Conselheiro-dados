@@ -19,9 +19,11 @@ INSERT INTO "memoria" VALUES(6,'fato','Victor identifica o supervisor de produç
 INSERT INTO "memoria" VALUES(7,'fato','Victor esclareceu que a manutenção das máquinas que pediu para lembrar é terceirizada. Quer apenas lembrar de marcar com um técnico, sem ampliar o pedido para planejamento de escopo, equipe ou parada.','2026-11-12 16:15:25',1);
 INSERT INTO "memoria" VALUES(8,'fato','Atualização de Victor: não fará o aumento de Nemuel agora; pretende aumentar Nemuel e Evelyn após o reajuste salarial do início do ano, para evitar incidência sobre o aumento planejado. É intenção, sem execução, valores ou vigência confirmados; premissa a conferir com contador. Substitui o plano anterior de aumento imediato apenas para Nemuel.','2026-11-16 11:54:09',1);
 INSERT INTO "memoria" VALUES(9,'fato','Victor definiu como intenção levar Nemuel e Evelyn a aproximadamente R$ 2.600 mensais cada, após o reajuste salarial do início do ano. O valor é aproximado; não houve execução nem definição de vigência exata. Complementa e atualiza os registros anteriores em que o valor-alvo ainda era desconhecido.','2026-11-16 11:55:52',1);
+INSERT INTO "memoria" VALUES(10,'fato','Victor forneceu a relação dos pedidos de venda do Pontta de 2026 em duas mensagens. Fonte, dados estruturados, lista CSV e ranking por cliente guardados em analises/vendas-2026/ na pasta de dados. Cálculos em organizar_pedidos.py e resumo.json. Base de pedidos/vendas, não faturamento fiscal; dados recebidos não têm total de controle nem prova de paginação completa. Usar esta base em vez dos orçamentos do CRM para análises destas vendas.','2026-11-17 13:01:43',1);
 CREATE TABLE numero (
   id INTEGER PRIMARY KEY AUTOINCREMENT, chave TEXT NOT NULL, valor REAL NOT NULL,
   ref TEXT NOT NULL, fonte TEXT NOT NULL, registrado_em TEXT NOT NULL);
+INSERT INTO "numero" VALUES(1,'vendas_pedidos_2026_relacao_recebida',4978610.92,'2026','Pedidos de venda do Pontta colados por Victor; 56 pedidos únicos, datas de venda de 23/01 a 12/11/2026. Todos os status recebidos; inclui um pedido zerado. Soma calculada e conciliada por script, não faturamento fiscal.','2026-11-17 13:01:43');
 CREATE TABLE pendencia (
   id INTEGER PRIMARY KEY AUTOINCREMENT, texto TEXT NOT NULL, quando TEXT NOT NULL,
   origem TEXT, concluida_em TEXT, criada_em TEXT NOT NULL);
@@ -49,10 +51,12 @@ CREATE TABLE relatorio (
   id INTEGER PRIMARY KEY AUTOINCREMENT, fonte TEXT NOT NULL, ref TEXT, caminho TEXT NOT NULL,
   recebido_em TEXT NOT NULL, obs TEXT);
 INSERT INTO "relatorio" VALUES(1,'contador','2026-10','/opt/data/conselheiro-dados/relatorios/contador-2026-10.pdf','2026-11-12 13:12:44','Folha mensal da Labplan; emitida em 03/11/2026. Base nominal de cargos, não confirma organograma real nem equipe fora da folha.');
+INSERT INTO "relatorio" VALUES(2,'pontta-pedidos','2026','/opt/data/conselheiro-dados/relatorios/pontta-pedidos-2026.txt','2026-11-17 13:01:43','Relação de pedidos enviada por Victor em duas mensagens do Telegram. Valores de vendas por data da venda, não faturamento fiscal. Sem total geral de controle ou confirmação independente de paginação.');
 DELETE FROM "sqlite_sequence";
-INSERT INTO "sqlite_sequence" VALUES('relatorio',1);
-INSERT INTO "sqlite_sequence" VALUES('memoria',9);
+INSERT INTO "sqlite_sequence" VALUES('relatorio',2);
+INSERT INTO "sqlite_sequence" VALUES('memoria',10);
 INSERT INTO "sqlite_sequence" VALUES('pendencia',9);
 INSERT INTO "sqlite_sequence" VALUES('decisao',4);
 INSERT INTO "sqlite_sequence" VALUES('problema',3);
+INSERT INTO "sqlite_sequence" VALUES('numero',1);
 COMMIT;

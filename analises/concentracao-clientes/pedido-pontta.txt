@@ -1,0 +1,11 @@
+Acesse o Pontta da Labplan pela minha sessão, somente para leitura, sem alterar nada.
+
+Preciso medir a concentração do faturamento por cliente de 01/01/2026 a 17/11/2026.
+
+Exporte CSV ou XLSX com os registros que compõem o faturamento do período: identificador da venda/documento, identificador do cliente, nome do cliente, data de faturamento, valor faturado, cancelamentos, devoluções e valor líquido considerado. Informe o total geral do mesmo período e o critério do relatório (faturamento bruto ou líquido, quais documentos/status entram e quais saem).
+
+Não confunda faturamento com orçamento, valor total do contrato, contas a receber ou recebimentos de caixa. Se o sistema só disponibilizar vendas fechadas, entregue essa base separadamente e identifique-a como vendas, sem chamar de faturamento.
+
+Percorra todas as páginas do relatório. Consolide vendas do mesmo cliente por identificador fiscal/cadastral verificado, sem agrupar apenas por nomes parecidos. Remova duplicações de documentos, não vendas diferentes do mesmo cliente. Não precisa expor CPF/CNPJ completo no arquivo enviado; um identificador estável do cliente basta.
+
+Se possível, entregue também o ranking agregado por cliente e reconcilie a soma com o total geral. Informe data e hora da extração e a tela/relatório utilizado. Não inclua o consórcio do Tiggo 7, que é pessoal.
