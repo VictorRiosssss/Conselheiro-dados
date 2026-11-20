@@ -1,0 +1,17 @@
+Acesse o Pontta da Labplan com a minha sessão (somente leitura: não altere nada) e monte o
+relatório diário de 2026-11-19, em Markdown, com:
+
+1. Caixa: saldo de hoje por conta, se disponível.
+2. Contas a pagar dos próximos 7 e 30 dias: total e lista com credor, valor e vencimento.
+3. Contas a receber dos próximos 7 e 30 dias: total e lista com cliente, valor e vencimento.
+4. Títulos vencidos (/api/debit-securities-financial/delayed): total e lista por credor, com valor,
+   vencimento e dias de atraso. Destaque FGTS, impostos e energia, e o que venceu desde ontem.
+5. Mês corrente até hoje (2026-11): receita, despesas pagas e resultado parcial
+   (/api/revenues/summary-totals e /api/expenses/summary-totals, page=0 até acabar, size=100).
+6. Movimentações de ontem acima de R$ 5.000 (entradas e saídas).
+
+No topo, uma tabela com os números-chave: caixa, a_pagar_7d, a_pagar_30d, a_receber_7d,
+a_receber_30d, vencidos_total, vencidos_fgts, vencidos_impostos, vencidos_energia,
+receita_mes_ate_hoje, despesas_mes_ate_hoje.
+Não inclua o consórcio do Tiggo 7 (é pessoal do Victor). Diga a data e hora da extração.
+Salve como pontta-2026-11-19.md.
